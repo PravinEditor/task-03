@@ -1,0 +1,42 @@
+body{
+	font-family: 'Jost', sans-serif; width: 90%;  margin : 0 auto;
+}
+.primaryDiv{
+	border : none; margin : 0 auto;
+}
+.navDiv{
+	background-color : #ffffff; border : none; padding : 9px;
+}
+h1{
+	text-align : center; font-size : 54px; margin : 0 auto;
+}
+h2{
+	text-align : center; padding : 14px;
+}
+h3{
+	text-align : center; font-size : 23px;
+}
+h4{
+	text-align : justify; font-size : 26px;
+}
+table{
+margin : 0 auto; width : 100%;
+}
+.card1{
+	border:none; background-color : #e5e5e5; height : 96px; padding-top : 17px;
+}
+.card2{
+	border:none; background-color : #e5e5e5; height : 96px; padding-top : 17px;
+}
+.card3{
+	border:none; background-color : #e5e5e5; height : 96px; padding-top : 17px;
+}
+p{
+	text-align : center; font-size : 19px;
+}
+small{
+	color : #00a99d;
+}
+.footer{
+	color : #00a99d; margin : 0 auto;
+}
