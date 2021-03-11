@@ -1,88 +1,188 @@
 <html>
-<head>
-<title>Pravin.E Web Page</title>
-<meta charset="utf-8">
+    <head>
+        <title>Pravin.E Web Page</title>
+        <meta charset="utf-8">
 
-<!-- INCLUDE CSS -->
-<link rel='stylesheet' href='css/index.css' />
+        <!-- INCLUDE CSS -->
+        <link rel='stylesheet' href='css/index.css' />
 
-<!-- GOOGLE FONT LINK -->
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+        <!-- GOOGLE FONT LINK -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
 
+        <!-- INCLUDE JS -->
+        <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 
-</head>
-<body style="" >
-<div class="primaryDiv">
-<nav class="navDiv" >
-  <a href=""><img src="img/logo.png" style="width:96px; height:34px;" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <span style="position : absolute; padding: 7px;" >
-  <a style="font-size : 17px;" >Categories</a> <span style="font-size : 12px;" >&or;</span>&nbsp;&nbsp;
-  <a style="font-size : 17px;" >Explore</a> <span style="font-size : 12px;">&or;</span>&nbsp;&nbsp;
-  <a style="font-size : 17px;" >Content</a> <span style="font-size : 12px;">&or;</span>&nbsp;&nbsp;
-  <a style="font-size : 17px;" >Tutorials</a> <span style="font-size : 12px;" >&or;</span>&nbsp;&nbsp;
-	</span>
-	<div style="float:right; padding: 7px;" >
-        <a style="font-size : 14px;" >Pricing</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		<a style="font-size : 14px; border : 1px solid #000000; padding : 7px; border-radius : 6px;" >Login</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		<a style="font-size : 14px; border : 1px solid #000000; padding : 7px; border-radius : 6px; background-color : #39f; color : #ffffff;" >Sign Up</a>
-		</div>
-</nav>
-<div class="container-fluid" style="margin-top : -56px; height : 280px;">
-<br><br><br>
-<h1>World’s First Watermark FREE Video Editor!</h1>
-<p>
-Make engaging professional videos under 5mins
-</p>
-<p style="margin : 28px auto;" ><span style="font-size : 14px; border : 1px solid #000000; padding : 7px; border-radius : 6px; background-color : #39f; color : #ffffff;" ><a href="" style="text-decoration : none; color : #ffffff;" >Get Started</a></span></p>
-<br><br><br><br>
-</div>
-<table>
-<tbody>
-<tr>
-<td>
-	<div class="card1">
-	<p><input type="radio" checked />&nbsp;Pre-made Templates<br><small>(4000+ Templates)</small></p>
-</div>
-</td>
-<td>
-	<div class="card2">
-	<p><input type="radio" />&nbsp;Text to Video<br><small>(50+ Themes)</small></p>
-</div>
-</td>
-<td>
-	<div class="card3">
-	<p><input type="radio" />&nbsp;Blank Canvas<br><small>(Start from scratch)</small></p>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-<div class="container-fluid"  style="background-image: url('img/bg.jpg'); height : 280px;"></div>
-<h5 style="margin : 7px auto; font-size : 19px;" >What's Trending</h5>
-<table>
-<tbody>
-<tr>
-<td>
-<img src="img/1.jpg" width="300px" />
-</td>
-<td>
-<img src="img/2.jpg" width="300px" />
-</td>
-<td>
-<img src="img/3.jpg" width="300px" />
-</td>
-<td>
-<img src="img/4.jpg" width="300px" />
-</td>
-</tr>
-</tbody>
-</table>
+        <script>
+            $(window).on('keydown', function (event)
+            {
+                if (event.keyCode == 123)
+                {
+                    window.location.reload(true);
+                    return false;
+                } else if (event.ctrlKey && event.shiftKey && event.keyCode == 73)
+                {
+                    window.location.reload(true);
+                    return false;
+                } else if (event.ctrlKey && event.shiftKey && event.keyCode == 74)
+                {
+                    window.location.reload(true);
+                    return false;
+                } else if (event.ctrlKey && event.shiftKey && event.keyCode == 67)
+                {
+                    window.location.reload(true);
+                    return false;
+                } else if (event.ctrlKey && event.keyCode == 85)
+                {
+                    window.location.reload(true);
+                    return false;
+                }
 
-<div class="footer">
-<p style="margin : 0 auto; padding : 9px;" >Copyright &#x000A9; . Pravin.e</p>
-</div>
+            });
+            $(document).on("contextmenu", function (e)
+            {
+                e.preventDefault();
+            });
+        </script>
 
-</div>
-</body>
+    </head>
+    <body>
+        <div class="primaryDiv">
+            <nav class="navDiv" >
+                <a href=""><img src="img/logo.png" style="width:96px; height:34px;" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span style="position : absolute; padding: 7px;" >
+                    <a style="font-size : 17px;" >Categories</a> <span style="font-size : 12px;" >&or;</span>&nbsp;&nbsp;
+                    <a style="font-size : 17px;" >Explore</a> <span style="font-size : 12px;">&or;</span>&nbsp;&nbsp;
+                    <a style="font-size : 17px;" >Content</a> <span style="font-size : 12px;">&or;</span>&nbsp;&nbsp;
+                    <a style="font-size : 17px;" >Tutorials</a> <span style="font-size : 12px;" >&or;</span>&nbsp;&nbsp;
+                </span>
+                <div style="float:right; padding: 7px;" >
+                    <a style="font-size : 14px;" >Pricing</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a style="font-size : 14px; border : 1px solid #000000; padding : 7px; border-radius : 6px;" >Login</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a style="font-size : 14px; border : 1px solid #000000; padding : 7px; border-radius : 6px; background-color : #39f; color : #ffffff;" >Sign Up</a>
+                </div>
+            </nav>
+            <div class="container-fluid" style="margin-top : -56px; height : 280px;">
+                <br><br><br>
+                <h1>World’s First Watermark FREE Video Editor!</h1>
+                <p>
+                    Make engaging professional videos under 5mins
+                </p>
+                <p style="margin : 28px auto;" ><span style="font-size : 14px; border : 1px solid #000000; padding : 7px; border-radius : 6px; background-color : #39f; color : #ffffff;" ><a href="" style="text-decoration : none; color : #ffffff;" >Get Started</a></span></p>
+                <br><br><br><br>
+            </div>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="card1">
+                                <p><input type="radio" name="rbtn" checked />&nbsp;Pre-made Templates<br><small>(4000+ Templates)</small></p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="card2">
+                                <p><input type="radio" name="rbtn" />&nbsp;Text to Video<br><small>(50+ Themes)</small></p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="card3">
+                                <p><input type="radio" name="rbtn" />&nbsp;Blank Canvas<br><small>(Start from scratch)</small></p>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="container-fluid"  style="background-image: url('img/bg.jpg'); height : 280px;"></div>
+
+            <h5 style="margin : 7px auto; font-size : 19px;" >What's Trending</h5>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <a href="" ><img src="img/1.jpg" width="300px" /></a>
+                        </td>
+                        <td>
+                            <a href="" ><img src="img/2.jpg" width="300px" /></a>
+                        </td>
+                        <td>
+                            <a href="" ><img src="img/3.jpg" width="300px" /></a>
+                        </td>
+                        <td>
+                            <a href="" ><img src="img/4.jpg" width="300px" /></a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h5 style="margin : 7px auto; font-size : 19px;" >Recently Added</h5>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <a href="" ><img src="img/5.jpg" width="300px" /></a>
+                        </td>
+                        <td>
+                            <a href="" ><img src="img/6.jpg" width="300px" /></a>
+                        </td>
+                        <td>
+                            <a href="" ><img src="img/7.jpg" width="300px" /></a>
+                        </td>
+                        <td>
+                            <a href="" ><img src="img/8.jpg" width="300px" /></a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h5 style="margin : 7px auto; font-size : 19px;" >Invites and Wishes</h5>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <a href="" ><img src="img/9.jpg" width="300px" /></a>
+                        </td>
+                        <td>
+                            <a href="" ><img src="img/10.jpg" width="300px" /></a>
+                        </td>
+                        <td>
+                            <a href="" ><img src="img/11.jpg" width="300px" /></a>
+                        </td>
+                        <td>
+                            <a href="" ><img src="img/12.jpg" width="300px" /></a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- PRE FOOTER -->
+            <h5 style="font-size : 19px; margin : 6px auto; " >InVideo For</h5>
+            <table style="background-color : #f8f8f8;">
+                <tbody>
+                    <tr style="text-align : center; height : 50px; ">
+                        <td><p style="font-size : 17px;" ><a href="" >YouTube Video Editor</a></p></td>
+                        <td><p style="font-size : 17px;" ><a href="" >Youtube Intro Maker</a></p></td>
+                        <td><p style="font-size : 17px;" ><a href="" >Blog</a></p></td>
+                        <td><p style="font-size : 17px;" ><a href="" >Business From $10/month</a></p></td>
+                    </tr>
+                    <tr style="text-align : center; height : 50px; ">
+                        <td><p style="font-size : 17px;" ><a href="" >Invitation Maker</a></p></td>
+                        <td><p style="font-size : 17px;" ><a href="" >Facebook Video Ads Maker</a></p></td>
+                        <td><p style="font-size : 17px;" ><a href="" >Creator's Club</a></p></td>
+                        <td><p style="font-size : 17px;" ><a href="" >Unlimited From $30/month</a></p></td>
+                    </tr>
+                    <tr style="text-align : center; height : 50px; ">
+                        <td><p style="font-size : 17px;" ><a href="" >Meme Templates</a></p></td>
+                        <td><p style="font-size : 17px;" ><a href="" >Instagram Video Editor</a></p></td>
+                        <td><p style="font-size : 17px;" ><a href="" >FAQs</a></p></td>
+                        <td><p style="font-size : 17px;" ><a href="" >24*7 Support</a></p></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- FOOTER -->
+            <div class="footer">
+                <p style="margin : 0 auto; padding : 9px;" >Copyright &#x000A9; . Pravin.e</p>
+            </div>
+
+        </div>
+    </body>
 </html>
